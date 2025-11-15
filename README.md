@@ -29,6 +29,6 @@ M = 8 - 7 + 2
 M = 3  
 
 Caminhos Únicos:  
-Caminho 1: 1 - 2 - 3 - 6 - 7  
-Caminho 2: 1 - 2 - 3 - 4 - 7  
-Caminho 3: 1 - 2 - 3 - 4 - 5 - 7  
+Caminho 1: 1; 2; 3; 6; 7.  
+Caminho 2: 1; 2; 3; 4; 7.  
+Caminho 3: 1; 2; 3; 4; 5; 7.  
