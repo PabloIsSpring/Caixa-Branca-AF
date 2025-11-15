@@ -12,23 +12,23 @@ User.conectarBD():
 Complexidade ciclomática:  
 E: 4 - N: 4 - P: 1  
 M = E - N + 2p  
-M = 4 - 4 + 2.1
-M = 2
+M = 4 - 4 + 2.1  
+M = 2  
 
-Caminhos Únicos:
+Caminhos Únicos:  
 Caminho 1 = 1; 2; 3; 4.  
-Caminho 2 = 1; 2; 4.
+Caminho 2 = 1; 2; 4.  
 
 User.verificarUsuario(String login, String senha):
 ![Grafo de verificar usuário](images/verificarUsuario.jpg)
 
-Complexidade ciclomática:
-E: 8 - N: 7 - P: 1
-M = E - N + 2p
-M = 8 - 7 + 2
-M = 3
+Complexidade ciclomática:  
+E: 8 - N: 7 - P: 1  
+M = E - N + 2p  
+M = 8 - 7 + 2  
+M = 3  
 
-Caminhos Únicos:
-Caminho 1: 1 - 2 - 3 - 6 - 7
-Caminho 2: 1 - 2 - 3 - 4 - 7
-Caminho 3: 1 - 2 - 3 - 4 - 5 - 7
+Caminhos Únicos:  
+Caminho 1: 1 - 2 - 3 - 6 - 7  
+Caminho 2: 1 - 2 - 3 - 4 - 7  
+Caminho 3: 1 - 2 - 3 - 4 - 5 - 7  
