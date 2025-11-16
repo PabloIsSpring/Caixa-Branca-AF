@@ -3,9 +3,10 @@
 Professor Daniel Ohata, notei que na atividade não estava escrito que precisava de dois grafos de fluxo. Entretanto,  
 na minha cabeça não faz sentido representar **UM** grafo de fluxo para a classe inteira, até porquê o grafo  
 de fluxo representa um algoritmo, e por ser um algoritmo, eu já pressuponho que, ele necessariante vai ter uma  
-única saida pois ele tem que ter um objetivo.
+única saida.
 
-Nesse sentido, eu elaborei 2 grafos de fluxo. Um grafo para a função User.conectarBD() e outra para  
+Nesse sentido, eu elaborei 2 grafos de fluxo. Um grafo para a função User.conectarBD() e outra User.verificarUsuário(String login, String senha)  
+
 User.conectarBD():
 ![grafo de conecatar no Banco de Dados](images/conectarBD.jpg)
 
@@ -18,7 +19,7 @@ M = 2
 Leganda:  
 1 - Instância do Connection conn  
 2 - Try: Tenta fazer conexão com BD  
-3 - Captura exceção  
+3 - Captura exceção (catch)  
 4 - Retorna conn  
 
 Caminhos Únicos:  
@@ -40,7 +41,7 @@ Leganda:
 3 - Try: Atráves da conexão, prepara declaração de query para o BD  
 4 - Condicional para checar se existe o usuário existe  
 5 - Captura nome do usuário  
-6 - Captura exceção  
+6 - Captura exceção (catch)  
 7 - Retorna result (booleano)
 
 Caminhos Únicos:  
