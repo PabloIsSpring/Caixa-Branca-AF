@@ -15,6 +15,12 @@ M = E - N + 2p
 M = 4 - 4 + 2.1  
 M = 2  
 
+Leganda:  
+1 - Instância do Connection conn  
+2 - Try: Tenta fazer conexão com BD  
+3 - Captura exceção  
+4 - Retorna conn  
+
 Caminhos Únicos:  
 Caminho 1 = 1; 2; 3; 4.  
 Caminho 2 = 1; 2; 4.  
@@ -27,6 +33,15 @@ E: 8 - N: 7 - P: 1
 M = E - N + 2p  
 M = 8 - 7 + 2  
 M = 3  
+
+Leganda:  
+1 - Instancia para conexão com BD  
+2 - Instrução SQL  
+3 - Try: Atráves da conexão, prepara declaração de query para o BD  
+4 - Condicional para checar se existe o usuário existe  
+5 - Captura nome do usuário  
+6 - Captura exceção  
+7 - Retorna result (booleano)
 
 Caminhos Únicos:  
 Caminho 1: 1; 2; 3; 6; 7.  
